@@ -1,10 +1,6 @@
 const express = require('express')
 const app = express()
 
-app.get('/', function(req, res) {
-    res.redirect('/homework')
-})
-
 app.get('/homework', function(req, res) {
     res.send({
         "name": "陳奕瑾",
